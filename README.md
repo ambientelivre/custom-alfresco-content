@@ -18,9 +18,9 @@ yo alfresco-adf-app
 
 ## Requisitos
 
-- Saber desenvolvimento Web
-- Saber fazer Angular
-- Saber fazer chamadas de API's
+- TypeScript
+- Desenvolvimento Web
+- Angular 9+
 
 ## Criando novo componente
 
@@ -29,9 +29,6 @@ ng generate component nome-do-meu-novo-componente -m app.module
 ```
 
 - Ver mais: https://angular.io/cli
-
-
-## Personalizações
 
 ### Barra lateral (Sidenav)
 
