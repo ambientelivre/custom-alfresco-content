@@ -28,7 +28,7 @@ yo alfresco-adf-app
 ng generate component nome-do-meu-novo-componente -m app.module
 ```
 
-- Ver mais: https://angular.io/cli
+- Comandos do CLI: https://angular.io/cli
 
 ### Barra lateral (Sidenav)
 
@@ -42,7 +42,7 @@ ng generate component nome-do-meu-novo-componente -m app.module
 </a>
 ```
 
-- Para adicionar um novo ícone, troque o conteúdo da tag **mat-icon** [matListIcon](https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/)
+- Icones [Mat-Icon List](https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/)
 
 ### Rota para a barra lateral
 
@@ -58,7 +58,7 @@ Após o item estar na barra lateral deve ser dito exibido
 1. Injetar o service **SearchService** no component selecionado
 1. Atribuir uma função **onChange** no input
 1. Armazenar o retorno do método **search**
-1. Mostrar dados do resultado no template
+1. Interar o resultado da pesquisa no template
 
 ## Veja mais
 
