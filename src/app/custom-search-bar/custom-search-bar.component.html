@@ -1,0 +1,22 @@
+<adf-search-text-input
+  [expandable]="true"
+  [liveSearchEnabled]="true"
+  (searchChange)="onSearchChanged($event)"
+>
+</adf-search-text-input>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Path</th>
+  </tr>
+
+  <tr *ngFor="let name of data?.list?.entries">
+    <td>
+      {{ name.entry.name }}
+    </td>
+    <td>
+      {{ name.entry.path.name }}
+    </td>
+  </tr>
+</table>
